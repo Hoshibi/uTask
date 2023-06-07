@@ -1,0 +1,29 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 135px);
+}
+
+.home div {
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.home div:hover {
+    text-decoration: underline;
+    color: #114FA7;
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.home a:hover {
+    text-decoration: underline;
+    color: #114FA7;
+}
