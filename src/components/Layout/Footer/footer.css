@@ -1,0 +1,39 @@
+footer {
+    background-color: #114FA7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 160px;
+    height: 55px;
+    color: #FFFFFF;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer .link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer .link a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+footer .signature {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer .signature img{
+    margin-top: 2px;
+}
+
+footer .signature b {
+    font-weight: 600;
+}
